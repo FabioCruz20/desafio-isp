@@ -14,6 +14,12 @@ Tecnologias usadas:
 - Vanilla Javascript
 - ArcGIS JS API
 
+Configuração:
+- Para usar a ArcGIS JS API, é necessário definir uma chave de API.
+- A chave de API pode ser criada seguindo o tutorial: https://developers.arcgis.com/documentation/security-and-authentication/api-key-authentication/tutorials/create-an-api-key/
+- Para definir a chave, crie uma cópia de js/secret.template.js como js/secret.js.
+- No arquivo js/secret.js criado, atribua a chave da API à variável string chamada arcgisAPIKey.
+
 Fontes dos dados:
 - Câmeras: https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/Traffic_Cameras/FeatureServer/0
 - Condados: https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Census_Counties/FeatureServer/0 
