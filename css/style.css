@@ -1,0 +1,12 @@
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    display: block;
+}
